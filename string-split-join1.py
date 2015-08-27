@@ -19,7 +19,7 @@ Sample Output
 this-is-a-string
 """
 
-S = raw_input()
-l = S.split(" ")
-St = '-'.join(l)
-print St
+#S = raw_input()
+#l = S.split(" ")
+#St = '-'.join(l)
+print "-".join(raw_input().split(" "))
